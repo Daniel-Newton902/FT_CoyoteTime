@@ -128,3 +128,13 @@ void ACoyoteTimeCharacter::Look(const FInputActionValue& Value)
 		AddControllerPitchInput(LookAxisVector.Y);
 	}
 }
+
+//Needs to start with 0 gravity
+//bool coyoteTimeActive(bool falling, ??? inAirTime){
+//	if (inAir && inAirTime>0.5){
+//		//Start falling-Set gravity
+// }
+// }
+
+//Need to reset the timer when on the ground
+// and count it when in the air
